@@ -21,6 +21,19 @@ We are not launching anything today, so this is just the numbers, what landed wh
 
 <!-- truncate -->
 
+We also made a silly little video for the occasion, in which a coding agent and its memory go for a walk in the park and work out what a knowledge page is for.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "1rem 0 2rem", borderRadius: "8px", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/mTpSHe41WSU"
+    title="One Memory. Every Agent. — Hindsight hits 40,000 stars"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  ></iframe>
+</div>
+
 ## Where things stand
 
 | | |
@@ -61,12 +74,6 @@ The integrations moved faster than the core did, which is usually the sign that 
 To everyone who filed an issue with a real reproduction, sent a pull request, argued with a design decision in a thread, or wrote up their own migration so the next person had something to read: thank you. Several of the sharper things in the last two releases exist because someone outside the team pointed at something and said *this is wrong*.
 
 If you want to be part of the next stretch, the [repository](https://github.com/vectorize-io/hindsight) is the place, and good first issues are labelled as such.
-
-We also made a silly little video for the occasion, in which a coding agent and its memory go for a walk in the park and work out what a knowledge page is for.
-
-<video controls playsInline poster="/img/blog/hindsight-40k-stars-video.jpg" width="100%" style={{borderRadius: "8px"}} aria-label="A pixel-art short: a coding agent asks whether it preferred React or Vue, and Hindsight recalls that the answer changed in week 3, then folds the facts into an observation and a knowledge page">
-  <source src="/img/blog/hindsight-40k-stars-video.mp4" type="video/mp4" />
-</video>
 
 ## What's next
 

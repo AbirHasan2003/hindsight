@@ -62,6 +62,12 @@ To everyone who filed an issue with a real reproduction, sent a pull request, ar
 
 If you want to be part of the next stretch, the [repository](https://github.com/vectorize-io/hindsight) is the place, and good first issues are labelled as such.
 
+We also made a silly little video for the occasion, in which a coding agent and its memory go for a walk in the park and work out what a knowledge page is for.
+
+<video controls playsInline poster="/img/blog/hindsight-40k-stars-video.jpg" width="100%" style={{borderRadius: "8px"}} aria-label="A pixel-art short: a coding agent asks whether it preferred React or Vue, and Hindsight recalls that the answer changed in week 3, then folds the facts into an observation and a knowledge page">
+  <source src="/img/blog/hindsight-40k-stars-video.mp4" type="video/mp4" />
+</video>
+
 ## What's next
 
 No roadmap promises. The honest version is that the work we are most interested in right now is the unglamorous half: making recall cheaper, making what the system believes easier to inspect, and making it harder to end up with a bank full of things you did not mean to keep.

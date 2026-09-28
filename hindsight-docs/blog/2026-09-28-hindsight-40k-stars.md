@@ -43,7 +43,7 @@ The number we pay attention to is **forks: 5,280, or about 13% of stars.** For a
 
 263 people have had a commit merged. That is the number behind the release cadence, and it is not a number you can buy attention for.
 
-![The 263 people who have had a commit merged into Hindsight](/img/blog/hindsight-40k-contributors.png)
+![The 263 people who have had a commit merged into Hindsight](/img/blog/hindsight-40k-contributors.jpg)
 
 ## What landed in those 45 days
 

@@ -43,6 +43,8 @@ The number we pay attention to is **forks: 5,280, or about 13% of stars.** For a
 
 263 people have had a commit merged. That is the number behind the release cadence, and it is not a number you can buy attention for.
 
+![The 263 people who have had a commit merged into Hindsight](/img/blog/hindsight-40k-contributors.png)
+
 ## What landed in those 45 days
 
 The doubling happened to overlap with the busiest stretch of shipping we have had. Since the 20,000 post: **24 releases**, 678 merged pull requests, and four core versions.

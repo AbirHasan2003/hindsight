@@ -103,7 +103,11 @@ The line I would point at, though, is this one:
 
 Memory is untrusted input. Anything that wrote to a bank you are now reading from can put text in front of your agent, and an agent that treats recalled text as instructions is an agent with a prompt-injection surface proportional to its memory. That sentence is cheap insurance and most integrations do not think to include it.
 
-**If the root endpoint is more trust than you want to extend**, connect Muse to `/mcp/<bank>/` instead. That endpoint takes the same OAuth sign-in, hands Muse exactly one bank, and drops the `bank_id` argument from every tool. You lose the cross-bank reading, which is the main reason to do this at all, so it is a real trade rather than a free win.
+**If the root endpoint is more trust than you want to extend**, connect Muse to `/mcp/<bank>/` instead. That endpoint takes the same OAuth sign-in, hands Muse exactly one bank, and drops the `bank_id` argument from every tool.
+
+Be precise about what that buys you, though. Single-bank mode removes `list_banks` and `create_bank`, so Muse cannot discover or reach anything else in your account. It does **not** remove the destructive tools: `delete_bank`, `clear_memories` and `invalidate_memory` are all still there, now aimed at the one bank you handed over. Scoping limits the blast radius, not the weapons. The prompt is still what stops them being used.
+
+You also lose the cross-bank reading, which is the main reason to connect Muse at all, so it is a real trade rather than a free win.
 
 ## Setting it up
 
